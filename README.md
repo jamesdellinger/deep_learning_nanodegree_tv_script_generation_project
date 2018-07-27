@@ -26,7 +26,7 @@ Topic: Recurrent Neural Networks.
 * RNNs and LSTM cells.
 * TensorFlow dropout wrappers.
 * Preprocessing a text dataset, building lookup tables, and tokenizing punctuation.
-* Writing from scratch an algorithm to generate training batches.
+* Writing from scratch an algorithm to generate batches consisting of sequences of training words.
 * Building a network's computation graph using TensorFlow.
 * My RNN included a word2vec embedding layer based on the [Skip-gram](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/) architecture, and I trained my network to predict the word directly following each word in the training set.
 * Tuning RNN hyperparameters like number of epochs, batch size, LSTM cell size, embedding layer dimension size, word2vec sequence length, and learning rate.
